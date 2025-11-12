@@ -1,0 +1,140 @@
+/*
+====================================
+CSS para "Noche de Hogueras"
+====================================
+*/
+
+/* === VARIABLES Y GLOBALES === */
+:root {
+    --dark-background: #18191c;
+    --text-primary: #e8e6e3;
+    --text-secondary: #9a9a9a;
+    --accent-fire: #e07a3a;
+    --card-background: #212328;
+    --font-titles: 'Lora', serif;
+    --font-body: 'Lato', sans-serif;
+}
+
+body {
+    background-color: var(--dark-background);
+    color: var(--text-primary);
+    font-family: var(--font-body);
+}
+
+/* === ENCABEZADO Y TEXTOS PRINCIPALES === */
+.album-header {
+    background: linear-gradient(180deg, var(--card-background) 0%, var(--dark-background) 100%);
+    border-bottom: 1px solid var(--card-background);
+}
+.album-cover-main {
+    max-width: 350px;
+    border-radius: 8px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6), 0 0 50px -10px var(--accent-fire);
+}
+h1 {
+    font-family: var(--font-titles);
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: var(--accent-fire);
+}
+.artist-name {
+    font-family: var(--font-titles);
+    font-size: 1.5rem;
+    font-style: italic;
+    color: var(--text-secondary);
+    margin-bottom: 25px;
+}
+.album-dedication {
+    font-size: 1.1rem;
+    font-weight: 300;
+    line-height: 1.8;
+    color: var(--text-secondary);
+}
+
+/* === TARJETAS DE CANCIÓN INTERACTIVAS === */
+.song-card {
+    background-color: var(--card-background);
+    border: 1px solid #2f3136;
+    border-radius: 12px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.song-card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.4);
+}
+.song-cover {
+    border-radius: 10px;
+    padding: 1rem;
+    transition: opacity 0.3s ease;
+}
+.image-link:hover .song-cover {
+    opacity: 0.8;
+}
+.song-card .card-body {
+    padding: 2rem;
+}
+.song-card .card-title {
+    font-family: var(--font-titles);
+    font-size: 2rem;
+    color: var(--text-primary);
+}
+.song-inspiration {
+    color: var(--text-secondary);
+    font-weight: 300;
+}
+
+/* === ESTILOS DEL MODAL === */
+.modal-content {
+    background-color: var(--card-background);
+    border: 1px solid #333;
+    color: var(--text-primary);
+}
+.modal-header {
+    border-bottom: 1px solid #333;
+}
+.modal-header .modal-title {
+    color: var(--accent-fire);
+    font-family: var(--font-titles);
+    font-size: 1.5rem;
+}
+.btn-close {
+    filter: invert(1) grayscale(100%) brightness(200%);
+}
+.modal-body hr {
+    border-top: 1px solid #333;
+}
+.btn-download {
+    background-color: var(--accent-fire);
+    color: var(--dark-background);
+    font-weight: bold;
+    border: none;
+}
+.btn-download:hover {
+    background-color: #f08a4a;
+    color: var(--dark-background);
+}
+#modalLyricsContainer pre {
+    color: var(--text-secondary);
+    font-family: monospace;
+    font-size: 0.9rem;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+/* === FOOTER === */
+footer {
+    background-color: var(--card-background);
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+}
+
+/* === RESPONSIVE === */
+@media (max-width: 767px) {
+    h1 { font-size: 2.8rem; }
+    .album-cover-main { max-width: 280px; }
+    .song-card .card-body { padding: 1.5rem; text-align: center; }
+    .song-cover { padding: 1rem 1rem 0 1rem; }
+    .song-card .card-title { font-size: 1.7rem; }
+}

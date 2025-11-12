@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noche de Hogueras</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- === ENCABEZADO === -->
+    <header class="album-header text-center py-5">
+        <div class="container">
+            <img src="https://i.imgur.com/r84Q6sD.jpeg" alt="Portada de Noche de Hogueras" class="album-cover-main img-fluid mb-4">
+            <h1>Noche de Hogueras</h1>
+            <p class="artist-name">Ñamin</p>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <p class="album-dedication">
+                        Para Ñamen. Esto no es solo un álbum, es el mapa de todo lo que has despertado en mí desde aquella noche mágica. Cada canción es un recuerdo, un sentimiento o una promesa. Es la banda sonora del fuego que encendiste en mi mundo. Gracias por ser la melodía y la hoguera.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- === LISTA DE CANCIONES === -->
+    <main class="tracklist py-5">
+        <div class="container">
+            
+            <!-- CANCIÓN 1: ¿Quién? -->
+            <div class="song-card shadow-sm mb-5" data-bs-toggle="modal" data-bs-target="#songModal" 
+                 data-song-title="1. ¿Quién?" data-audio-src="audio/01_Quien.mp3">
+                <div class="row g-0 align-items-center">
+                    <div class="col-md-3 text-center">
+                        <a href="URL_YOUTUBE_QUIEN" target="_blank" class="image-link">
+                            <img src="URL_PORTADA_QUIEN" alt="Portada de ¿Quién?" class="song-cover img-fluid">
+                        </a>
+                    </div>
+                    <div class="col-md-9">
+                        <div class="card-body">
+                            <h2 class="card-title">1. ¿Quién?</h2>
+                            <p class="card-text song-inspiration">Esta canción es el principio de todo. Es ese instante en un mar de gente en el que te vi y todo lo demás desapareció...</p>
+                            <!-- Contenedor oculto con la letra -->
+                            <div class="lyrics-content d-none">
+                                <pre>
+[Intro]
+[Music starts with a dreamy, clean electric guitar arpeggio...]
+¿Quién, quién?
+[Yeah]
+Dime, ¿quién?
+
+... (Pega la letra completa aquí)
+                                </pre>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CANCIÓN 2: Niégalo -->
+            <div class="song-card shadow-sm mb-5" data-bs-toggle="modal" data-bs-target="#songModal" 
+                 data-song-title="2. Niégalo" data-audio-src="audio/02_Niegalo.mp3">
+                 <div class="row g-0 align-items-center">
+                    <div class="col-md-3 text-center">
+                        <a href="URL_YOUTUBE_NIEGALO" target="_blank" class="image-link">
+                            <img src="URL_PORTADA_NIEGALO" alt="Portada de Niégalo" class="song-cover img-fluid">
+                        </a>
+                    </div>
+                    <div class="col-md-9">
+                        <div class="card-body">
+                            <h2 class="card-title">2. Niégalo</h2>
+                            <p class="card-text song-inspiration">Aquí empieza el juego. Las miradas, la tensión, el baile. Quería una bachata que se sintiera como esa conversación sin palabras que teníamos...</p>
+                            <div class="lyrics-content d-none">
+                                <pre>
+[Intro: Soft progressive Spanish guitar, romantic atmosphere]
+[Spoken Male Vocal, melodic, seductive tone]
+¿Crees que no me he dado cuenta?,
+... (Pega la letra completa aquí)
+                                </pre>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ... Repite esta estructura para las 10 canciones, cambiando los datos -->
+
+        </div>
+    </main>
+
+    <!-- === FOOTER === -->
+    <footer class="text-center py-4">
+        <div class="container">
+            <p class="mb-0">&copy; 6 de Enero de 2026 - Ñamin. Hecho con amor, para la única que importa.</p>
+        </div>
+    </footer>
+
+    <!-- === VENTANA MODAL (UNA SOLA PARA TODAS LAS CANCIONES) === -->
+    <div class="modal fade" id="songModal" tabindex="-1" aria-labelledby="modalSongTitleLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalSongTitleLabel"></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="player-container mb-4">
+                        <audio id="modalAudioPlayer" controls class="w-100"></audio>
+                        <a id="modalDownloadBtn" href="#" download class="btn btn-download mt-3">Descargar MP3</a>
+                    </div>
+                    <hr>
+                    <div id="modalLyricsContainer">
+                        <!-- Las letras se insertarán aquí con JS -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
