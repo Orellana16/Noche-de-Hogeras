@@ -4,12 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Noche de Hogueras</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- SEO y Metadatos -->
+    <meta name="description" content="Un álbum de música personal de Ñamin para Ñamen.">
+    <meta name="author" content="Ñamin">
+
+    <!-- Estilos -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-    <!-- FAVICOM-->
+    
+    <!-- Favicon -->
     <link rel="icon" type="image/png" href="Portadas/Portada.png">
 </head>
 <body>
@@ -17,258 +23,42 @@
     <!-- === ENCABEZADO === -->
     <header class="album-header text-center py-5">
         <div class="container">
-            <img src="https://i.imgur.com/r84Q6sD.jpeg" alt="Portada de Noche de Hogueras" class="album-cover-main img-fluid mb-4">
+            <img src="https://i.imgur.com/r84Q6sD.jpeg" alt="Portada de Noche de Hogueras" class="album-cover-main img-fluid mb-4" loading="lazy">
             <h1>Noche de Hogueras</h1>
             <p class="artist-name">Ñamin</p>
-            <div class="row justify-content-center">
+            <div class="row justify-content-center mt-4">
                 <div class="col-lg-8">
-                    <p class="album-dedication">
-                        Para Ñamen. DEDICATORIA
-                    </p>
+                    <div class="dedication-letter">
+                        <p class="album-dedication">
+                            Para Ñamen: 
+                            <br><br>
+                            ¡¡Feliz año 2026!! Espero que lo pasemos entero juntos, este y muchos más, porque eres mi persona favorita (jeje) y te quiero con locura.
+                            <br><br>
+                            Quería expresarte cuánto te quiero pero no sabía cómo, y además me he gastado todo el presupuesto en tu regalo de cumple, así que se me ocurrió hacerte este álbum de canciones.
+                            <br><br>
+                            Espero que te encante y las pongas en todas tus playlists.
+                            <br><br>
+                            Te quiero,
+                            <br>
+                            <em>Ñamin.</em>
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
     </header>
 
-    <!-- === LISTA DE CANCIONES === -->
+    <!-- === LISTA DE CANCIONES (GENERADA POR JAVASCRIPT) === -->
     <main class="tracklist py-5">
         <div class="container">
-            
-            <!-- CANCIÓN 1: ¿Quién? -->
-            <div class="song-card shadow-sm mb-5" data-bs-toggle="modal" data-bs-target="#songModal" 
-                 data-song-title="1. ¿Quién?" data-audio-src="audio/01_Quien.mp3">
-                <div class="row g-0 align-items-center">
-                    <div class="col-md-3 text-center">
-                        <a href="URL_YOUTUBE_QUIEN" target="_blank" class="image-link">
-                            <img src="Portadas/¿Quien.png" alt="Portada de ¿Quién?" class="song-cover img-fluid">
-                        </a>
-                    </div>
-                    <div class="col-md-9">
-                        <div class="card-body">
-                            <h2 class="card-title">1. ¿Quién?</h2>
-                            <p class="card-text song-inspiration">DEDICATORIA</p>
-                            <!-- Contenedor oculto con la letra -->
-                            <div class="lyrics-content d-none">
-                                <pre>
-LETRA
-                                </pre>
-                            </div>
-                        </div>
+            <div id="tracklist-container" class="row">
+                <!-- Mostramos un spinner de carga mientras JS trabaja. -->
+                <div class="col-12 text-center py-5">
+                    <div class="spinner-border text-light" style="width: 3rem; height: 3rem;" role="status">
+                        <span class="visually-hidden">Cargando canciones...</span>
                     </div>
                 </div>
             </div>
-
-            <!-- CANCIÓN 2: Niégalo -->
-            <div class="song-card shadow-sm mb-5" data-bs-toggle="modal" data-bs-target="#songModal" 
-                 data-song-title="2. Niégalo" data-audio-src="audio/02_Niegalo.mp3">
-                 <div class="row g-0 align-items-center">
-                    <div class="col-md-3 text-center">
-                        <a href="URL_YOUTUBE_NIEGALO" target="_blank" class="image-link">
-                            <img src="Portadas/Niegalo.jpg" alt="Portada de Niégalo" class="song-cover img-fluid">
-                        </a>
-                    </div>
-                    <div class="col-md-9">
-                        <div class="card-body">
-                            <h2 class="card-title">2. Niégalo</h2>
-                            <p class="card-text song-inspiration">DEDICATORIA</p>
-                            <div class="lyrics-content d-none">
-                                <pre>
-LETRA
-                                </pre>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- CANCIÓN 3: 300PPS -->
-            <div class="song-card shadow-sm mb-5" data-bs-toggle="modal" data-bs-target="#songModal" 
-                 data-song-title="3. 300PPS" data-audio-src="audio/03_300PPS.mp3">
-                <div class="row g-0 align-items-center">
-                    <div class="col-md-3 text-center">
-                        <a href="URL_YOUTUBE_300PPS" target="_blank" class="image-link">
-                            <img src="Portadas/300PPS.png" alt="Portada de 300PPS" class="song-cover img-fluid">
-                        </a>
-                    </div>
-                    <div class="col-md-9">
-                        <div class="card-body">
-                            <h2 class="card-title">3. 300PPS</h2>
-                            <p class="card-text song-inspiration">DEDICATORIA</p>
-                            <!-- Contenedor oculto con la letra -->
-                            <div class="lyrics-content d-none">
-                                <pre>
-LETRA
-                                </pre>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- CANCIÓN 4: Esa Niña -->
-            <div class="song-card shadow-sm mb-5" data-bs-toggle="modal" data-bs-target="#songModal" 
-                 data-song-title="4. Esa Niña" data-audio-src="audio/04_EsaNiña.mp3">
-                 <div class="row g-0 align-items-center">
-                    <div class="col-md-3 text-center">
-                        <a href="URL_YOUTUBE_ESANIÑA" target="_blank" class="image-link">
-                            <img src="Portadas/EsaNiña.png" alt="Portada de Esa Niña" class="song-cover img-fluid">
-                        </a>
-                    </div>
-                    <div class="col-md-9">
-                        <div class="card-body">
-                            <h2 class="card-title">4. Esa Niña</h2>
-                            <p class="card-text song-inspiration">DEDICATORIA</p>
-                            <div class="lyrics-content d-none">
-                                <pre>
-LETRA
-                                </pre>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- CANCIÓN 5: El Niño de los Claveles -->
-            <div class="song-card shadow-sm mb-5" data-bs-toggle="modal" data-bs-target="#songModal" 
-                 data-song-title="5. El Niño de los Claveles" data-audio-src="audio/05_ElNiñoDeLosClaveles.mp3">
-                <div class="row g-0 align-items-center">
-                    <div class="col-md-3 text-center">
-                        <a href="URL_YOUTUBE_NIÑOCLAVELES" target="_blank" class="image-link">
-                            <img src="Portadas/ElNiñoDeLosClaveles.png" alt="Portada de El Niño de los Claveles" class="song-cover img-fluid">
-                        </a>
-                    </div>
-                    <div class="col-md-9">
-                        <div class="card-body">
-                            <h2 class="card-title">5. El Niño de los Claveles</h2>
-                            <p class="card-text song-inspiration">DEDICATORIA</p>
-                            <!-- Contenedor oculto con la letra -->
-                            <div class="lyrics-content d-none">
-                                <pre>
-LETRA
-                                </pre>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- CANCIÓN 6: Conexion Celestial -->
-            <div class="song-card shadow-sm mb-5" data-bs-toggle="modal" data-bs-target="#songModal" 
-                 data-song-title="6. Conexion Celestial" data-audio-src="audio/06_ConexionCelestial.mp3">
-                 <div class="row g-0 align-items-center">
-                    <div class="col-md-3 text-center">
-                        <a href="URL_YOUTUBE_CONEXIONCELESTIAL" target="_blank" class="image-link">
-                            <img src="Portadas/ConexionCelestial.png" alt="Portada de Conexion Celestial" class="song-cover img-fluid">
-                        </a>
-                    </div>
-                    <div class="col-md-9">
-                        <div class="card-body">
-                            <h2 class="card-title">6. Conexión Celestial</h2>
-                            <p class="card-text song-inspiration">DEDICATORIA</p>
-                            <div class="lyrics-content d-none">
-                                <pre>
-LETRA
-                                </pre>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- CANCIÓN 7: No Me Basta -->
-            <div class="song-card shadow-sm mb-5" data-bs-toggle="modal" data-bs-target="#songModal" 
-                 data-song-title="7. No Me Basta" data-audio-src="audio/07_NoMeBasta.mp3">
-                <div class="row g-0 align-items-center">
-                    <div class="col-md-3 text-center">
-                        <a href="URL_YOUTUBE_NOMEBASTA" target="_blank" class="image-link">
-                            <img src="Portadas/NoMeBasta.png" alt="Portada de No Me Basta" class="song-cover img-fluid">
-                        </a>
-                    </div>
-                    <div class="col-md-9">
-                        <div class="card-body">
-                            <h2 class="card-title">7. No Me Basta</h2>
-                            <p class="card-text song-inspiration">DEDICATORIA</p>
-                            <!-- Contenedor oculto con la letra -->
-                            <div class="lyrics-content d-none">
-                                <pre>
-LETRA
-                                </pre>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- CANCIÓN 8: Polilla en Zapatillas -->
-            <div class="song-card shadow-sm mb-5" data-bs-toggle="modal" data-bs-target="#songModal" 
-                 data-song-title="8. Polilla en Zapatillas" data-audio-src="audio/08_PolillaEnZapatillas.mp3">
-                 <div class="row g-0 align-items-center">
-                    <div class="col-md-3 text-center">
-                        <a href="URL_YOUTUBE_POLILLAENZAPATILLAS" target="_blank" class="image-link">
-                            <img src="Portadas/PolillaEnZapatillas.png" alt="Portada de Polilla en Zapatillas" class="song-cover img-fluid">
-                        </a>
-                    </div>
-                    <div class="col-md-9">
-                        <div class="card-body">
-                            <h2 class="card-title">8. Polilla en Zapatillas</h2>
-                            <p class="card-text song-inspiration">DEDICATORIA</p>
-                            <div class="lyrics-content d-none">
-                                <pre>
-LETRA
-                                </pre>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- CANCIÓN 9: Que Guapa Estas -->
-            <div class="song-card shadow-sm mb-5" data-bs-toggle="modal" data-bs-target="#songModal" 
-                 data-song-title="9. Que Guapa Estas" data-audio-src="audio/09_QueGuapaEstas.mp3">
-                <div class="row g-0 align-items-center">
-                    <div class="col-md-3 text-center">
-                        <a href="URL_YOUTUBE_QUEGUAPAESTAS" target="_blank" class="image-link">
-                            <img src="Portadas/Que Guapa Estas.jpg" alt="Portada de Que Guapa Estas" class="song-cover img-fluid">
-                        </a>
-                    </div>
-                    <div class="col-md-9">
-                        <div class="card-body">
-                            <h2 class="card-title">9. Qué Guapa Estas</h2>
-                            <p class="card-text song-inspiration">DEDICATORIA</p>
-                            <!-- Contenedor oculto con la letra -->
-                            <div class="lyrics-content d-none">
-                                <pre>
-LETRA
-                                </pre>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- CANCIÓN 10: Me Duele -->
-            <div class="song-card shadow-sm mb-5" data-bs-toggle="modal" data-bs-target="#songModal" 
-                 data-song-title="10. Me Duele" data-audio-src="audio/10_MeDuele.mp3">
-                 <div class="row g-0 align-items-center">
-                    <div class="col-md-3 text-center">
-                        <a href="URL_YOUTUBE_MEDUELE" target="_blank" class="image-link">
-                            <img src="Portadas/" alt="Portada de Me Duele" class="song-cover img-fluid">
-                        </a>
-                    </div>
-                    <div class="col-md-9">
-                        <div class="card-body">
-                            <h2 class="card-title">10. Me Duele</h2>
-                            <p class="card-text song-inspiration">DEDICATORIA</p>
-                            <div class="lyrics-content d-none">
-                                <pre>
-LETRA
-                                </pre>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
         </div>
     </main>
 
@@ -279,7 +69,7 @@ LETRA
         </div>
     </footer>
 
-    <!-- === VENTANA MODAL (UNA SOLA PARA TODAS LAS CANCIONES) === -->
+    <!-- === VENTANA MODAL (ÚNICA Y REUTILIZABLE) === -->
     <div class="modal fade" id="songModal" tabindex="-1" aria-labelledby="modalSongTitleLabel" aria-hidden="true">
         <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
             <div class="modal-content">
@@ -293,15 +83,16 @@ LETRA
                         <a id="modalDownloadBtn" href="#" download class="btn btn-download mt-3">Descargar MP3</a>
                     </div>
                     <hr>
-                    <div id="modalLyricsContainer">
+                    <pre id="modalLyricsContainer">
                         <!-- Las letras se insertarán aquí con JS -->
-                    </div>
+                    </pre>
                 </div>
             </div>
         </div>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Scripts (Bootstrap y nuestro script personalizado al final) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="app.js"></script>
 </body>
 </html>
