@@ -603,7 +603,7 @@ Ay que maravilla mas sencilla esa chiquilla como brilla
             id: 9,
             title: "Qué Guapa Estás",
             audioSrc: "audio/09_QueGuapaEstas.mp3",
-            coverSrc: "Portadas/Que Guapa Estas.jpg",
+            coverSrc: "Portadas/QueGuapaEstas.jpg",
             youtubeUrl: "URL_YOUTUBE_QUEGUAPAESTAS",
             inspiration: "Mi favorita, es completamente nueva y la que mas me gusta sin duda, no se lo que tiene pero esta guapa. Queria hacer una cancion muy explicita y hablando del deseo carnal pero con una base super chill y romantica, al final salio esto, no es tan explicita pero me encanta el resultado final.",
             lyrics: `Hmmmm...
