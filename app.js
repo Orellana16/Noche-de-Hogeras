@@ -686,7 +686,7 @@ Qué guapa estás, joder, qué guapa estás...
             id: 10,
             title: "Me Duele",
             audioSrc: "audio/10_MeDuele.mp3",
-            coverSrc: "Portadas/MeDuele.png", // ¡Corregido! Asegúrate de que este archivo exista
+            coverSrc: "Portadas/MeDuele.jpg", // ¡Corregido! Asegúrate de que este archivo exista
             youtubeUrl: "URL_YOUTUBE_MEDUELE",
             inspiration: "Completamente nueva, es la mas personal, queria hablar de como me molesta que otros te hayan tenido y no te hayan valorado, y de que si hubiese llegado un poco antes podria haberte ahorrado esos dolores. Espero que te guste.",
             lyrics: `Me duele saber todo lo que te hicieron
