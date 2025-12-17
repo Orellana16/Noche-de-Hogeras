@@ -7,13 +7,13 @@ Que me miras y te pones contenta.
 Pues si, me he dado cuenta,
 Se escapa una sonrisa cuando te miro de pies a cabeza.
 
-[Pre-Chorus: Male vocal, building tension, rhythmic guitar strumming]
+[Pre-Chorus: Male vocal solo, building tension, rhythmic guitar strumming]
 Esta noche soy tu antojo.
 Lo sé por cómo te brillan los ojos,
 De entre todas a ti te escojo.
 Ten cuidao, no soy de amar flojo.
 
-[Chorus: Male and female duet, full bachata rhythm, harmonized vocals, güira and bongos]
+[Chorus: Male vocal solo, full bachata rhythm, harmonized vocals, güira and bongos]
 Niégalo, pero me he dado cuenta, 
 De esas miraditas que me hechizan y me tientan. 
 Niégalo, pero me he dado cuenta, 
@@ -21,25 +21,9 @@ Tú quieres que te mire de vuelta.
 Niégalo, pero me he dado cuenta, 
 De esas miraditas que me hechizan y me tientan. 
 Niégalo, pero me he dado cuenta, 
-[Male vocal solo, flirtatious]
 Rechazas a toda la que se acerca...
 
-[Verse 1: Male vocal, conversational, guitar picking pattern]
-[Whispered, intimate]
-("¿Bailas?")
-[Resume singing]
-Una propuesta indecente,
-Deja que tu movimiento me tiente.
-Te juro soy el más competente
-De tus pretendientes
-Sé que tu también lo sientes.
-No te merece toda esta gente
-Y aunque no sea diferente,
-Prometo amarte más fuerte
-Que cualquiera que se acerque.
-Por esta noche, déjame quererte...
-
-[Pre-Chorus: Female vocal, confident, sensual, building intensity]
+[Pre-Chorus: Female vocal solo, confident, sensual, building intensity]
 Esta noche soy tu antojo.
 Lo sé por cómo te brillan los ojos,
 Te miro de vuelta y me sonrojo.
@@ -53,7 +37,6 @@ Te gusta cuando ponen la bachata lenta.
 Niégalo, pero me he dado cuenta, 
 De esas miraditas que me hechizan y me tientan. 
 Niégalo, pero me he dado cuenta,
-[Female vocal solo, playful]
 Bailamos y te enamoras mientras.
 
 [Bridge: Shift to bolero style, slower tempo, romantic strings, intimate duet]
