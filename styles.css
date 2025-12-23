@@ -12,7 +12,7 @@ h1, h2, h5 {
 
 /* === ENCABEZADO === */
 .album-header {
-    background: linear-gradient(rgba(18, 18, 18, 0.8), rgba(18, 18, 18, 1)), url('GIF/Hero.gif') no-repeat center center;
+    background: linear-gradient(rgba(18, 18, 18, 0.8), rgba(18, 18, 18, 1)), url('https://i.pinimg.com/originals/cd/ba/43/cdba43f47d78daefa7f5f4d368b19c81.jpg') no-repeat center center;
     background-size: cover;
 }
 
