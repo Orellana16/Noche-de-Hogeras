@@ -8,6 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
             title: "¿Quién?",
             audioSrc: "Audio/¿Quién.mp3",
             coverSrc: "Portadas/¿Quien.png",
+            gifSrc: "GIF/¿Quien.gif",
             youtubeUrl: "URL_YOUTUBE_QUIEN",
             inspiration: "Esta canción la escribi antes de esta contigo. La he modificado un poco para que este mas chuli, pero basicamente la he escrito pensando en cuando aun no eramos novios y yo estaba deseando lanzarme pero no me atrevia, solo te queria decir que nadie te iba a quere como yo te queria y te quiero. He intentado darle un estilo de Paulo Londra porque se lo que te gusta la escena argentina.",
             lyrics: `(Yeah)
@@ -77,6 +78,7 @@ Dime, ¿quién? ¿Quién te va a querer así?`
             title: "Niégalo",
             audioSrc: "Audio/Niégalo.mp3",
             coverSrc: "Portadas/Niegalo.jpg",
+            gifSrc: "GIF/Niegalo.gif",
             youtubeUrl: "URL_YOUTUBE_NIEGALO",
             inspiration: "Esta tambien la tenia ya hecha, de hecho esta no le he tocado nada a la letra. Fue un dia que me dio por escribir una bachata y me inspire en cuando bailamos encima del escenario de la feria de Malaga y todas las veces en comedia. Puedes ver como creia que alomejor te gustaba, pero como no era seguro me puse a escribir esto pensando que algun dia pasaria. He querido que la canten un hombre y una mujer y darle un poco vibras de 'Colgando en tus manos' para que si no la bailamos la cantemos tipo karaoke.",
             lyrics: `¿Crees que no me he dado cuenta?,
@@ -144,6 +146,7 @@ Niegaloo, pero mee he dado cuentaaa...`
             title: "El Niño de los Claveles",
             audioSrc: "Audio/El Niño de los Claveles.mp3",
             coverSrc: "Portadas/ElNiñoDeLosClaveles.png",
+            gifSrc: "GIF/ElNiñoDeLosClaveles.gif",
             youtubeUrl: "URL_YOUTUBE_NIÑOCLAVELES",
             inspiration: "Esta es completamente nueva menos alguna parte. Queria hacer esta cancion tipo los delinqüentes y con la tematica de los claveles para hacer referencia a las pequenas cosas que me gustan de ti y de estar contigo y hacer tambien referencia a la feria en la que empezamos a ser algo.",
             lyrics: `Hoy me he levantao con las sábanas pegás,
@@ -205,8 +208,9 @@ soy el niño de los claveles y ella mi favorita.`
             title: "300PPS",
             audioSrc: "Audio/300PPS.mp3",
             coverSrc: "Portadas/300PPS.png",
+            gifSrc: "GIF/300PPS.gif",
             youtubeUrl: "URL_YOUTUBE_300PPS",
-            inspiration: "Esta si es completamente nueva, fue de las primera que he hecho. Queria hablar y representar como la vida es mucho mas emocionante cuando estoy contigo, como me aceleras el corazon, y lo bien que me lo paso contigo. Queria un ritmo divertido y que te haga bailar asi que me acorde de la pelicula de los moteros y los surferos cuando cantan en el bar (bruisin for a cruisin)",
+            inspiration: "Esta si es completamente nueva, fue de las primera que he hecho. Queria hablar y representar como la vida es mucho mas emocionante cuando estoy contigo, como me aceleras el corazon, y lo bien que me lo paso contigo. Queria un ritmo divertido y que te haga bailar asi que me acorde de Bruisin for a Cruisin",
             lyrics: `Eeeeestoy que exploto niña vente ya pa acá
 Como te despistes te saco a bailar,
 ¡Vente ya que no aguanto más!
@@ -279,6 +283,7 @@ Me tienes con las patas colgando.
             title: "Esa Niña",
             audioSrc: "Audio/Esa Niña.mp3",
             coverSrc: "Portadas/EsaNiña.png",
+            gifSrc: "GIF/EsaNiña.gif",
             youtubeUrl: "URL_YOUTUBE_ESANIÑA",
             inspiration: "Esta la tenia medio empezada, pero la he cambiado bastante y le he dado un estilo mas parecido a Walls porque lo asocio mucho a nosotros. Habla de que me tienes loco y que haria cualquier cosa por ti, he intentado que parezca medio bipolar para representar lo loco que me tienes.",
             lyrics: `Te besé, dejaste tu marca en mi piel,
@@ -355,6 +360,7 @@ Nadie se iguala a ti.
             title: "No Me Basta",
             audioSrc: "Audio/No Me Basta.mp3",
             coverSrc: "Portadas/NoMeBasta.png",
+            gifSrc: "GIF/NoMeBasta.gif",
             youtubeUrl: "URL_YOUTUBE_NOMEBASTA",
             inspiration: "Esta cancion es completamente nueva tambien. Queria hacer una tipo Pablo Alboran o Benson Boone, de esas que te encanta cantar a toda voz, y ha salido esto. Habla de cuanto te quiero y de que no me basta con tenerte para siempre aunque sean todos los segundos del dia porque siempre quiero mas de ti.",
             lyrics: `Náufrago en tierra de nadie,
@@ -407,8 +413,9 @@ Y POR ESO AHORA... ¡SOY ADICTO...!
             title: "Polilla en Zapatillas",
             audioSrc: "Audio/Polilla en Zapatillas.mp3",
             coverSrc: "Portadas/PolillaEnZapatillas.png",
+            gifSrc: "GIF/PolillaEnZapatillas.gif",
             youtubeUrl: "URL_YOUTUBE_POLILLAENZAPATILLAS",
-            inspiration: "Totalmente nueva y la segunda que mas me gusta del album. Me inspire claramente en Space Surimi porque me acuerdo de ti y esos conciertos y esa feria juntos, ademas, es super divertida y tiene un ritmazo, es justo lo que queria plasmar. Espero que tambien te guste.",
+            inspiration: "Totalmente nueva y de las que mas me gusta del album. Me inspire claramente en Space Surimi porque me acuerdo de ti y esos conciertos y esa feria juntos, ademas, es super divertida y tiene un ritmazo, es justo lo que queria plasmar. Espero que tambien te guste.",
             lyrics: `"A vé, que no me aclaro... ponle ahí el beat de los marcianitos"
 
 Me matan sus acai y yo masoquista
@@ -501,8 +508,9 @@ pues yo una polilla en zapatillas.
             title: "Conexión Celestial",
             audioSrc: "Audio/Conexion Celestial.mp3",
             coverSrc: "Portadas/ConexionCelestial.png",
+            gifSrc: "GIF/ConexionCelestial.gif",
             youtubeUrl: "URL_YOUTUBE_CONEXIONCELESTIAL",
-            inspiration: "Esta cancion es completamente nueva tambien, queria hacerla con estilo rockstar/modo diablo por que se que te encanta, pero al final ha salido esta mezcal rara, la verdad es que me gusta, ademas es un dueto asi que podemos cantarla los dos. La cancion es un fronteo de que somos los mejores y nuestra relacion esta muy por encima de cualquier otra, es decir, tenemos una conexion celestial.",
+            inspiration: "Esta cancion la he escrito con la idea de hacerla con estilo rockstar/modo diablo por que se que te encanta, pero al final ha salido esta mezcal rara, la verdad es que me gusta, ademas es un dueto asi que podemos cantarla los dos. La cancion es un fronteo de que somos los mejores y nuestra relacion esta muy por encima de cualquier otra, es decir, tenemos una conexion celestial.",
             lyrics: `Mírenla cuando pasa, descalza en el asfalto
 Fuego en sus huellas, el que la toca se vuelve santo
 Si algo le pasa, entro como Akaza sin guantes
@@ -577,6 +585,7 @@ Que miren, que miren, no pueden tocar
             title: "Qué Guapa Estás",
             audioSrc: "Audio/Que Guapa Estas.mp3",
             coverSrc: "Portadas/QueGuapaEstas.jpg",
+            gifSrc: "GIF/QueGuapaEstas.gif",
             youtubeUrl: "URL_YOUTUBE_QUEGUAPAESTAS",
             inspiration: "Mi favorita, es completamente nueva y la que mas me gusta sin duda, no se lo que tiene pero esta guapa. Queria hacer una cancion muy explicita y hablando del deseo carnal pero con una base super chill y romantica, al final salio esto, no es tan explicita pero me encanta el resultado final.",
             lyrics: `Hmmmm...
@@ -641,7 +650,7 @@ Moratones y besos, cuerpo ajedrez,
 Me escogió el diablo y probé su miel
 Rechacé el trato pero es mi rehén.
 Qué guapa está cuando se entrega entera,
-Qué guapa mi loba
+Qué guapa mi loba cuando hasta los vecinos se enteran.
 
 shhh… otra vez…`
         },
@@ -650,6 +659,7 @@ shhh… otra vez…`
             title: "Me Duele",
             audioSrc: "Audio/Me Duele.mp3",
             coverSrc: "Portadas/MeDuele.jpg",
+            gifSrc: "GIF/MeDuele.gif",
             youtubeUrl: "URL_YOUTUBE_MEDUELE",
             inspiration: "Completamente nueva, es la mas personal, queria hablar de como me molesta que otros te hayan tenido y no te hayan valorado, y de que si hubiese llegado un poco antes podria haberte ahorrado esos dolores. Espero que te guste.",
             lyrics: `Me duele saber todo lo que te hicieron
@@ -712,10 +722,12 @@ y que ni una lagrima te vuelva a tocar.`
     const modalAudioPlayer = document.getElementById('modalAudioPlayer');
     const modalDownloadBtn = document.getElementById('modalDownloadBtn');
     const modalLyricsContainer = document.getElementById('modalLyricsContainer');
+    // Nuevo elemento para el GIF
+    const modalGif = document.getElementById('modalSongGif'); 
 
-    // 3. RENDERIZADO DINÁMICO
+    // 3. RENDERIZADO DINÁMICO (Se mantiene igual)
     function renderTracklist() {
-        tracklistContainer.innerHTML = ''; // Limpiamos el spinner de carga
+        tracklistContainer.innerHTML = ''; 
         songs.forEach(song => {
             const songCardHTML = `
                 <div class="col-12">
@@ -751,6 +763,12 @@ y que ni una lagrima te vuelva a tocar.`
         if (selectedSong) {
             modalTitle.textContent = `${selectedSong.id}. ${selectedSong.title}`;
             modalAudioPlayer.src = selectedSong.audioSrc;
+            
+            // Cambiamos la imagen del modal por el GIF de la canción
+            if (modalGif) {
+                modalGif.src = selectedSong.gifSrc; 
+            }
+
             modalDownloadBtn.href = selectedSong.audioSrc;
             modalDownloadBtn.download = `${selectedSong.id}. ${selectedSong.title}.mp3`;
             modalLyricsContainer.textContent = selectedSong.lyrics;
@@ -758,10 +776,15 @@ y que ni una lagrima te vuelva a tocar.`
         }
     });
 
-    // Evento para detener el audio cuando el modal se cierra
+    // Evento para detener el audio y limpiar el GIF cuando el modal se cierra
     songModalEl.addEventListener('hidden.bs.modal', () => {
         modalAudioPlayer.pause();
         modalAudioPlayer.currentTime = 0;
+        
+        // Limpiamos el src para que no se vea el GIF anterior al abrir una nueva canción
+        if (modalGif) {
+            modalGif.src = ""; 
+        }
     });
 
     // 5. INICIALIZACIÓN
