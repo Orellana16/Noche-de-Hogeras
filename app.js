@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
             audioSrc: "Audio/¿Quién.mp3",
             coverSrc: "Portadas/¿Quien.png",
             gifSrc: "GIF/¿Quien.gif",
-            youtubeUrl: "URL_YOUTUBE_QUIEN",
+            youtubeUrl: "https://youtu.be/WH1wbyEprRE",
             inspiration: "Esta canción la escribi antes de esta contigo. La he modificado un poco para que este mas chuli, pero basicamente la he escrito pensando en cuando aun no eramos novios y yo estaba deseando lanzarme pero no me atrevia, solo te queria decir que nadie te iba a quere como yo te queria y te quiero. He intentado darle un estilo de Paulo Londra porque se lo que te gusta la escena argentina.",
             lyrics: `(Yeah)
 ¿Dime, quién?
@@ -79,7 +79,7 @@ Dime, ¿quién? ¿Quién te va a querer así?`
             audioSrc: "Audio/Niégalo.mp3",
             coverSrc: "Portadas/Niegalo.jpg",
             gifSrc: "GIF/Niegalo.gif",
-            youtubeUrl: "URL_YOUTUBE_NIEGALO",
+            youtubeUrl: "https://youtu.be/Xk0983DDiLw",
             inspiration: "Esta tambien la tenia ya hecha, de hecho esta no le he tocado nada a la letra. Fue un dia que me dio por escribir una bachata y me inspire en cuando bailamos encima del escenario de la feria de Malaga y todas las veces en comedia. Puedes ver como creia que alomejor te gustaba, pero como no era seguro me puse a escribir esto pensando que algun dia pasaria. He querido que la canten un hombre y una mujer y darle un poco vibras de 'Colgando en tus manos' para que si no la bailamos la cantemos tipo karaoke.",
             lyrics: `¿Crees que no me he dado cuenta?,
 Que me miras y te pones contenta.
@@ -147,7 +147,7 @@ Niegaloo, pero mee he dado cuentaaa...`
             audioSrc: "Audio/El Niño de los Claveles.mp3",
             coverSrc: "Portadas/ElNiñoDeLosClaveles.png",
             gifSrc: "GIF/ElNiñoDeLosClaveles.gif",
-            youtubeUrl: "URL_YOUTUBE_NIÑOCLAVELES",
+            youtubeUrl: "https://youtu.be/9Ce6ERFRzfw",
             inspiration: "Esta es completamente nueva menos alguna parte. Queria hacer esta cancion tipo los delinqüentes y con la tematica de los claveles para hacer referencia a las pequenas cosas que me gustan de ti y de estar contigo y hacer tambien referencia a la feria en la que empezamos a ser algo.",
             lyrics: `Hoy me he levantao con las sábanas pegás,
 Con el gusto de tu pelo enredao en mi boca.
@@ -209,7 +209,7 @@ soy el niño de los claveles y ella mi favorita.`
             audioSrc: "Audio/300PPS.mp3",
             coverSrc: "Portadas/300PPS.png",
             gifSrc: "GIF/300PPS.gif",
-            youtubeUrl: "URL_YOUTUBE_300PPS",
+            youtubeUrl: "https://youtu.be/eHwn0yx87G8",
             inspiration: "Esta si es completamente nueva, fue de las primera que he hecho. Queria hablar y representar como la vida es mucho mas emocionante cuando estoy contigo, como me aceleras el corazon, y lo bien que me lo paso contigo. Queria un ritmo divertido y que te haga bailar asi que me acorde de Bruisin for a Cruisin",
             lyrics: `Eeeeestoy que exploto niña vente ya pa acá
 Como te despistes te saco a bailar,
@@ -284,7 +284,7 @@ Me tienes con las patas colgando.
             audioSrc: "Audio/Esa Niña.mp3",
             coverSrc: "Portadas/EsaNiña.png",
             gifSrc: "GIF/EsaNiña.gif",
-            youtubeUrl: "URL_YOUTUBE_ESANIÑA",
+            youtubeUrl: "https://youtu.be/ZnLQMAj5MwQ",
             inspiration: "Esta la tenia medio empezada, pero la he cambiado bastante y le he dado un estilo mas parecido a Walls porque lo asocio mucho a nosotros. Habla de que me tienes loco y que haria cualquier cosa por ti, he intentado que parezca medio bipolar para representar lo loco que me tienes.",
             lyrics: `Te besé, dejaste tu marca en mi piel,
 ¿Ahora qué?, ni siquiera me tengo en pie,
@@ -361,7 +361,7 @@ Nadie se iguala a ti.
             audioSrc: "Audio/No Me Basta.mp3",
             coverSrc: "Portadas/NoMeBasta.png",
             gifSrc: "GIF/NoMeBasta.gif",
-            youtubeUrl: "URL_YOUTUBE_NOMEBASTA",
+            youtubeUrl: "https://youtu.be/tZD3b9JT2dU",
             inspiration: "Esta cancion es completamente nueva tambien. Queria hacer una tipo Pablo Alboran o Benson Boone, de esas que te encanta cantar a toda voz, y ha salido esto. Habla de cuanto te quiero y de que no me basta con tenerte para siempre aunque sean todos los segundos del dia porque siempre quiero mas de ti.",
             lyrics: `Náufrago en tierra de nadie,
 a un universo de la orilla.
@@ -414,7 +414,7 @@ Y POR ESO AHORA... ¡SOY ADICTO...!
             audioSrc: "Audio/Polilla en Zapatillas.mp3",
             coverSrc: "Portadas/PolillaEnZapatillas.png",
             gifSrc: "GIF/PolillaEnZapatillas.gif",
-            youtubeUrl: "URL_YOUTUBE_POLILLAENZAPATILLAS",
+            youtubeUrl: "https://youtu.be/k4wQUIinpuQ",
             inspiration: "Totalmente nueva y de las que mas me gusta del album. Me inspire claramente en Space Surimi porque me acuerdo de ti y esos conciertos y esa feria juntos, ademas, es super divertida y tiene un ritmazo, es justo lo que queria plasmar. Espero que tambien te guste.",
             lyrics: `"A vé, que no me aclaro... ponle ahí el beat de los marcianitos"
 
@@ -509,7 +509,7 @@ pues yo una polilla en zapatillas.
             audioSrc: "Audio/Conexion Celestial.mp3",
             coverSrc: "Portadas/ConexionCelestial.png",
             gifSrc: "GIF/ConexionCelestial.gif",
-            youtubeUrl: "URL_YOUTUBE_CONEXIONCELESTIAL",
+            youtubeUrl: "https://youtu.be/6t8REFH6qyc",
             inspiration: "Esta cancion la he escrito con la idea de hacerla con estilo rockstar/modo diablo por que se que te encanta, pero al final ha salido esta mezcal rara, la verdad es que me gusta, ademas es un dueto asi que podemos cantarla los dos. La cancion es un fronteo de que somos los mejores y nuestra relacion esta muy por encima de cualquier otra, es decir, tenemos una conexion celestial.",
             lyrics: `Mírenla cuando pasa, descalza en el asfalto
 Fuego en sus huellas, el que la toca se vuelve santo
@@ -586,7 +586,7 @@ Que miren, que miren, no pueden tocar
             audioSrc: "Audio/Que Guapa Estas.mp3",
             coverSrc: "Portadas/QueGuapaEstas.jpg",
             gifSrc: "GIF/QueGuapaEstas.gif",
-            youtubeUrl: "URL_YOUTUBE_QUEGUAPAESTAS",
+            youtubeUrl: "https://youtu.be/dap0wnxt-zY",
             inspiration: "Mi favorita, es completamente nueva y la que mas me gusta sin duda, no se lo que tiene pero esta guapa. Queria hacer una cancion muy explicita y hablando del deseo carnal pero con una base super chill y romantica, al final salio esto, no es tan explicita pero me encanta el resultado final.",
             lyrics: `Hmmmm...
 Puff... qué guapa estás.
@@ -660,7 +660,7 @@ shhh… otra vez…`
             audioSrc: "Audio/Me Duele.mp3",
             coverSrc: "Portadas/MeDuele.jpg",
             gifSrc: "GIF/MeDuele.gif",
-            youtubeUrl: "URL_YOUTUBE_MEDUELE",
+            youtubeUrl: "https://youtu.be/ptM0Rygiiyk",
             inspiration: "Completamente nueva, es la mas personal, queria hablar de como me molesta que otros te hayan tenido y no te hayan valorado, y de que si hubiese llegado un poco antes podria haberte ahorrado esos dolores. Espero que te guste.",
             lyrics: `Me duele saber todo lo que te hicieron
 las veces que lloraste y nadie lo vio,
